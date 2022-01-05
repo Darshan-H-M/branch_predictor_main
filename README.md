@@ -5,8 +5,9 @@ The above attached files are the asm generation files for testing of branch pred
 We have used the demo codes provided here [chromite_uatg_tests](https://github.com/incoresemi/chromite_uatg_tests)  as templates for our codes.
 
 ## Code Description
-#### uatg_fa_gshare_bht.py 
-- tries to fill bht completely, by branching 512 times with different ghr and pc values.
+#### uatg_gshare_fa_bht.py 
+- This test used to fill the branch history table with conditional Branches and jumps, calls and returns. and also verify if the replacement happening properly or not. and fill the bht completely, it will branch 512 times with different pc and ghr values.
+
 #### uatg_gshare_fa_bht_fence_postfull.py
 - fills the BTB and then flushes it using a fence instruction.
 #### uatg_gshare_fa_bht_rollback_postfull.py
