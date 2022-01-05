@@ -1,7 +1,8 @@
 # branch_predictor_main
 
 # Branch_Predictor
-The attached files are the asm generation files for testing of branch predictor and work in the [chromite_uatg_tests](https://github.com/incoresemi/chromite_uatg_tests) as a submodule under the BPU. We have used the demo codes provided here as templates for our codes.
+The above attached files are the asm generation files for testing of branch predictor.
+We have used the demo codes provided here [chromite_uatg_tests](https://github.com/incoresemi/chromite_uatg_tests)  as templates for our codes.
 
 ## Code Description
 #### uatg_fa_gshare_bht.py 
@@ -14,3 +15,4 @@ The attached files are the asm generation files for testing of branch predictor 
 - fills ghr with alternating ones and zeros using compressed branch instruction.
 #### uatg_gshare_fa_ras_push_pop_overload.py 
 - overflows the ghr with more number of calls than the size and tries to return. 
+l
