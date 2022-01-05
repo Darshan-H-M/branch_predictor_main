@@ -11,7 +11,7 @@ We have used the demo codes provided here [chromite_uatg_tests](https://github.c
 #### uatg_gshare_fa_bht_fence_postfull.py
 - This test is used to fill the branch target buffer and then it flushes using fence instruction.
 #### uatg_gshare_fa_bht_rollback_postfull.py
-- This test is used to Simplify the incorrect branches, then it forces the history register to roll back.a
+- This test is used to Simplify the incorrect branches, then it forces the history register to roll back.
 #### uatg_gshare_fa_ghr_alternating_compressed.py 
 - In this test alternating ones and zeros are filled to ghr with the help of Compressed branch Instruction.
 #### uatg_gshare_fa_ras_push_pop_overload.py 
