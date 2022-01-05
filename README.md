@@ -2,7 +2,7 @@
 
 # Branch_Predictor
 The above attached files are the asm generation files for testing of branch predictor.
-We have used the demo codes provided here [chromite_uatg_tests](https://github.com/incoresemi/chromite_uatg_tests)  as templates for our codes.
+We have used these codes provided here [chromite_uatg_tests](https://github.com/incoresemi/chromite_uatg_tests)  as reference for our codes.
 
 ## Code Description
 #### uatg_gshare_fa_bht.py 
